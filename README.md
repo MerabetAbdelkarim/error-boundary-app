@@ -33,7 +33,7 @@ cd backend
 npm install
 npm start
 ```
-The backend will run on **[http://localhost:5000](http://localhost:5000)**.
+The backend will run on **[http://localhost:5000/api/data](http://localhost:5000/api/data)**.
 
 ### 3️⃣ Run the frontend
 Open a new terminal, navigate to the frontend folder, and start it:
