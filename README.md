@@ -23,7 +23,7 @@ This project is a **React & Express** web application demonstrating error handli
 ## 📥 Installation
 ### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/YOUR_USERNAME/error-boundary-app.git
+https://github.com/MerabetAbdelkarim/error-boundary-app.git
 cd error-boundary-app
 ```
 
