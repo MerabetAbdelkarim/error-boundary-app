@@ -27,14 +27,10 @@ git clone https://github.com/YOUR_USERNAME/error-boundary-app.git
 cd error-boundary-app
 ```
 
-### 2️⃣ Install dependencies (for both frontend & backend)
-```sh
-npm install
-```
-
 ### 3️⃣ Run the backend server
 ```sh
 cd backend
+npm install
 npm start
 ```
 The backend will run on **[http://localhost:5000](http://localhost:5000)**.
@@ -43,6 +39,7 @@ The backend will run on **[http://localhost:5000](http://localhost:5000)**.
 Open a new terminal, navigate to the frontend folder, and start it:
 ```sh
 cd frontend
+npm install
 npm start
 ```
 Now, open [http://localhost:3000](http://localhost:3000) in your browser.
