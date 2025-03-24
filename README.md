@@ -1,11 +1,11 @@
 # Error Boundary App
 
 ## 🚀 Live Demo
-- **Frontend (React on Vercel):** [View Live](https://error-boundary-app.vercel.app)
-- **Backend (Express on Railway):** [API Endpoint](https://your-app-name.up.railway.app/api/data)
+- **Frontend & Backend (Full App):** [View Live](https://error-boundary-app-frontend.vercel.app/)
+- **API Endpoint:** [API Link](https://error-boundary-app-backend-production.up.railway.app/api/data)
 
 ## 📖 Overview
-This project is a **React & Express** web application demonstrating error handling with React Error Boundaries. The frontend is built with **React** and the backend is built with **Node.js & Express**.
+This project is a **React & Express** web application demonstrating error handling with React Error Boundaries. The frontend is built with **React**, and the backend is built with **Node.js & Express**.
 
 ## 🛠️ Tech Stack
 ### **Frontend:**
@@ -23,53 +23,42 @@ This project is a **React & Express** web application demonstrating error handli
 ## 📥 Installation
 ### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/YOUR_USERNAME/error-boundary-frontend.git
-cd error-boundary-frontend
+git clone https://github.com/YOUR_USERNAME/error-boundary-app.git
+cd error-boundary-app
 ```
 
-### 2️⃣ Install dependencies
+### 2️⃣ Install dependencies (for both frontend & backend)
 ```sh
 npm install
 ```
 
-### 3️⃣ Run the app locally
+### 3️⃣ Run the backend server
 ```sh
+cd backend
+npm start
+```
+The backend will run on **[http://localhost:5000](http://localhost:5000)**.
+
+### 4️⃣ Run the frontend
+Open a new terminal, navigate to the frontend folder, and start it:
+```sh
+cd frontend
 npm start
 ```
 Now, open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## ⚙️ Backend Setup
-### 1️⃣ Clone the repository
-```sh
-git clone https://github.com/YOUR_USERNAME/error-boundary-backend.git
-cd error-boundary-backend
-```
-
-### 2️⃣ Install dependencies
-```sh
-npm install
-```
-
-### 3️⃣ Start the backend server
-```sh
-npm start
-```
-The backend will run on **[http://localhost:5000](http://localhost:5000)**.
-
----
-
 ## 🔥 Features
 ✅ React Error Boundaries for graceful error handling
 ✅ API integration with Express backend
+✅ Single repository for both frontend & backend
 ✅ Deployment on **Vercel (Frontend)** & **Railway (Backend)**
 
 ---
 
 ## 🌍 Deployment
-- **Frontend:** Automatically deployed via **Vercel**.
-- **Backend:** Hosted on **Railway**.
+- **Frontend & Backend:** Deployed via **Vercel** & **Railway**.
 
 ---
 
